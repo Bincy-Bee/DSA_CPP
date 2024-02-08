@@ -6,7 +6,7 @@ int main(){
     cout << "Enter number :" << endl;
     cin >> N;
     for(int i = 1 ; i <= N; i++){
-        if(i%2 == 0){
+        if(i % 2 == 0){
             cout << i << endl;
         }
     }
